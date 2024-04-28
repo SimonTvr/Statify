@@ -1,0 +1,114 @@
+.page {
+  height: calc(100vh - 70px); 
+}
+
+.stats-container1 {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;  
+}
+
+.ranking {
+  flex: 1;
+
+}
+
+.ranking-titre {
+  color: #ffffff;
+  font-family: "Montserrat-ExtraBold";
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+.stats-card {
+  width: 150px;
+  height: 150px;
+}
+
+.stats-button {
+  font-size: 0.3em; 
+  padding: 2px 8px;
+  width: 100px;
+  height: 15px;
+  text-align: center;
+}
+
+.stats-button:hover {
+
+  background-color: transparent; 
+  color: #6f95ff; 
+  border: 1px solid #6f95ff; 
+  padding: 2px 8px;
+  width: 100px;
+  height: 15px;
+  text-align: center;
+}
+
+.genre {
+  margin: 0 20px;
+}
+
+.genre-titre {
+  color: #ffffff;
+  font-family: "Montserrat-ExtraBold";
+  font-size: 1.5em;
+  margin: 20px;
+}
+
+.qqchiffres-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 20px;
+}
+
+.qqchiffres {
+  margin: 0 20px; /* Correction de la marge */
+}
+
+
+.qqchiffres-titre {
+  color: #ffffff;
+  font-family: "Montserrat-ExtraBold";
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+.antiNavbar {
+  height: 70px;
+}
+
+.genre-progress-container {
+  margin-bottom: 15px; /* Espacement entre les jauges */
+  padding: 0 10px; /* Padding latéral pour le contenu dans les petits écrans */
+}
+
+.genre-name {
+  display: block; /* Affiche le nom du genre sur sa propre ligne */
+  margin-bottom: 5px; /* Espace entre le nom du genre et la jauge */
+  color: white;
+  font-family: "Montserrat-Bold";
+  font-size: 1em;
+}
+
+.genre-progress {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  overflow: hidden; /* Garde les coins arrondis pour les barres intérieures */
+}
+
+.genre-progress-bar {
+  height: 20px;
+  border-radius: 5px;
+  text-align: right;
+  transition: width 0.5s ease;
+  background-color:#6f95ff; /* Assurez-vous que c'est une valeur de couleur valide */
+}
+
+.genre-percentage {
+  display: block; /* Affiche le pourcentage sur sa propre ligne */
+  text-align: right;
+  color: white;
+  font-size: 1em; /* Taille de la police adaptée aux mobiles */
+  font-family: "Montserrat-Bold";
+}

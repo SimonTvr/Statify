@@ -1,0 +1,13 @@
+.canvas-container {
+  width: 50%; /* ou une largeur fixe comme 200px si vous voulez une taille spécifique */
+  height: auto; /* cela gardera le ratio du graphique */
+  margin-top: 20px; /* ajustez selon l'espace que vous voulez entre les éléments au-dessus et le graphique */
+  margin-bottom: 10px; /* espace entre le graphique et la légende */
+  margin-left: auto; /* centrage horizontal */
+  margin-right: auto; /* centrage horizontal */
+}
+
+.canvas-container canvas {
+  width: 100%;
+  height: auto; /* cela gardera le ratio du graphique */
+}

@@ -1,0 +1,83 @@
+.logo-container {
+  display: flex;
+  align-items: center; /* Centrer verticalement les éléments */
+  justify-content: center;
+  margin-top: 100px;
+}
+
+
+.spotify-logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px; /* Ajoutez une marge à droite pour séparer le logo du nom de l'application */
+}
+
+.app-info {
+  display: flex; /* Utilisez la mise en page flexbox pour positionner les éléments à côté les uns des autres */
+  align-items: center; /* Centrer verticalement les éléments */
+}
+
+.app-name {
+  font-size: 3em; /* Taille du texte du nom de l'application */
+  color: #ffffff; /* Couleur du texte en blanc */
+  font-family: "Montserrat-Bold"; /* Police de caractères en gras */
+  margin-left: 10px;
+}
+.app-description {
+  font-family: "Montserrat-MediumItalic";
+  font-size: 1em;
+  color: #ffffff;
+  margin: 0 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.login-button-container {
+  display: flex;
+  align-items: center; /* Centrer verticalement */
+  justify-content: center; /* Centrer horizontalement */
+  margin-top: 130px; /* Ajoutez une marge en haut pour séparer le bouton du logo */
+}
+
+.wavy {
+  animation-name: wavy;
+  animation-duration: 1.3s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+@keyframes wavy {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -15px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.wavy-logo {
+  animation-name: wavy;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 0;
+  animation-direction: alternate; /* Faites rebondir le logo dans les deux directions */
+}
+
+.app-description {
+  font-family: "Montserrat-MediumItalic";
+  font-size: 1em;
+  color: #ffffff;
+  margin: 0 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}

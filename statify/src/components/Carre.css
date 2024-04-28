@@ -1,0 +1,39 @@
+.carre-scroll-container {
+  overflow-x: auto;
+}
+
+.carre-scroll {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.carre {
+  border: none;
+  cursor: pointer;
+  font-family: "Montserrat-Bold";
+  display: flex;
+  flex-direction: column; /* Affiche les éléments en colonne */
+  align-items: flex-start; /* Alignement à gauche */
+  padding: 0;
+  margin: 0;
+}
+
+.carre-image {
+  height: 140px;
+  width: 140px;
+  border-radius: 5px;
+}
+
+.carre-text1 {
+  margin-top: 5px;
+  color: #b3b3b3;
+  font-family: "MontSerrat-SemiBold";
+  font-size: 0.8em;
+}
+
+.carre-text2 {
+  color: #b3b3b3;
+  font-family: "MontSerrat-SemiBold";
+  font-size: 0.8em;
+}

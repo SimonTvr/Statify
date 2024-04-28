@@ -1,0 +1,45 @@
+.ranking-artists-container .card-scroll-container .card-icon {
+  width: 60px; /* Définissez la nouvelle taille de card-icon */
+}
+
+.ranking-artists-container .card-scroll-container .card .card-text1 {
+  font-size: 0.8em; /* Nouvelle taille de la police pour card-text1 */
+}
+
+.ranking-artists-container .card-scroll-container .card .card-text2 {
+  font-size: 0.7em; /* Nouvelle taille de la police pour card-text2 */
+}
+
+.ranking-artists-container2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.artist-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    max-height: 70px;
+}
+
+.artist-image {
+    width: 70px; /* Ajustez la taille selon les besoins */
+    height: 70px; /* Ajustez la taille selon les besoins */
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 50%; /* Images rondes pour les artistes */
+}
+
+.artist-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.artist-name {
+    font-size: 0.8em;
+    color: white;
+}
+
+.see-more-button {
+    /* Styles pour votre bouton "Voir plus"/"Voir moins" */
+}

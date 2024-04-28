@@ -1,0 +1,35 @@
+.card {
+  display: flex; /* Utilisation de flexbox pour aligner les éléments */
+  align-items: center; /* Alignement vertical des éléments */
+  background-color: transparent; /* Retirer le fond blanc */
+  padding: 0; /* Annuler le padding */
+  border: none; /* Supprimer les bordures */
+  outline: none; /* Supprimer la bordure de focus */
+  margin: 10px 0;
+}
+
+.card-icon {
+  width: 70px; /* Largeur fixe de l'image */
+  height: auto; /* Hauteur automatique */
+  margin-right: 10px; /* Marge à droite de l'image */
+}
+
+.card-text-container {
+  display: flex; /* Utilisation de flexbox pour aligner les textes */
+  flex-direction: column; /* Alignement vertical des textes */
+}
+
+.card-text1 {
+  font-family: "Montserrat-SemiBold";
+  font-size: 1em;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.card-text2 {
+  font-family: "Montserrat-SemiBold";
+  font-size: 1em;
+  color: #b3b3b3;
+  text-align: left;
+}

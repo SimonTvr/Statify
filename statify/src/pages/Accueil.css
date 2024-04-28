@@ -1,0 +1,70 @@
+body {
+  background-color: #212121;
+}
+
+.accueil-text {
+  color: #ffffff;
+  font-family: "Montserrat-ExtraBold";
+  font-size: 5em;
+  margin: 20px;
+}
+
+.accueil-quizz {
+  margin-top: 20px;
+}
+
+.accueil-titre-quizz {
+  color: #ffffff;
+  font-family: "Montserrat-ExtraBold";
+  font-size: 1.5em;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.accueil-question-quizz {
+  color: #ffffff;
+  font-family: "Montserrat-Bold";
+  font-size: 1em;
+  margin: 20px;
+}
+
+.question-line {
+  width: 220px;
+  height: 2px;
+  background-color: #6f95ff;
+  margin-left: 20px; /* Ajuste la marge pour centrer le trait */
+  margin-bottom: 10px;
+}
+
+.accueil-titre-recommandees {
+  color: #ffffff;
+  font-family: "Montserrat-ExtraBold";
+  font-size: 1.5em;
+  margin: 20px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+.return-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.return-link {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.return-icon {
+  font-size: 200px; 
+}
+
+.antiNavbar {
+  height: 70px;
+}

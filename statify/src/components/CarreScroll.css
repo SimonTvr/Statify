@@ -1,0 +1,5 @@
+.carre-scroll {
+  display: flex;
+  gap: 10px; /* Ajuste l'espace entre les éléments */
+  padding: 20px;
+}

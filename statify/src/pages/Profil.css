@@ -1,0 +1,123 @@
+body {
+  overflow-y: auto; /* Activer le défilement vertical pour toute la page */
+  min-height: 100vh; /* Assurer une hauteur minimale égale à la hauteur de la fenêtre */
+  background-image: linear-gradient(to bottom, rgba(111, 149, 255, 0.2) 1%, rgba(33, 33, 33, 1) 40%);
+
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  height: auto; /* Assurer une hauteur minimale égale à la hauteur de la fenêtre */
+}
+
+
+.profile-image-container {
+  margin-top: 20px; /* Ajuste la marge supérieure pour déplacer l'image vers le haut */
+  width: 150px; /* Largeur de votre photo de profil */
+  height: 150px; /* Hauteur de votre photo de profil */
+  border-radius: 50%; /* Rend l'image ronde */
+  overflow: hidden; /* Cache tout ce qui dépasse de la zone définie */
+  
+}
+
+.profile-image {
+  width: 100%; /* Pour remplir complètement le conteneur */
+  height: 100%; /* Pour remplir complètement le conteneur */
+  object-fit: cover; /* Ajuste la taille de l'image pour couvrir la zone définie */
+}
+
+.profile-name {
+  margin-top: 20px; /* Ajuste la marge supérieure pour déplacer le nom vers le haut */
+  font-size: 1.5em; /* Taille de la police */
+  font-family: "Montserrat-ExtraBold";
+  color: #ffffff; /* Couleur du texte */
+}
+
+.button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 140px;
+  height: 20px;
+  font-size: 0.5em;
+  color: #ffffff;
+}
+
+.profile-info {
+  display: flex; /* Utilise Flexbox pour aligner les éléments horizontalement */
+  justify-content: space-between; /* Répartit l'espace entre les éléments */
+  width: 100%; /* Ajuste la largeur du conteneur pour limiter l'espacement */
+  margin: 20px 40px;
+  gap: 0px;
+}
+
+.profile-info-item {
+  display: flex; /* Utilise Flexbox pour aligner les éléments horizontalement */
+  flex-direction: column; /* Affiche les éléments en colonne */
+  align-items: center; /* Centre les éléments verticalement */
+  flex: 1; /* Fait en sorte que chaque élément occupe le même espace */
+  width: 100px; /* Définissez une largeur fixe pour chaque élément */
+  text-align: center; /* Centre le texte horizontalement */
+  justify-content: space-between; /* Répartit l'espace entre les éléments */
+  }
+
+
+.profile-nombre {
+  color: #ffffff;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+
+.profile-nom {
+  color: #b3b3b3;
+  font-size: 0.7em;
+}
+
+.profile-playlists {
+  padding: 0 20px;
+}
+.profile-titre-playlists {
+  color: #ffffff;
+  font-family: "Montserrat-ExtraBold";
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  text-align: left; 
+}
+
+.logout-icon-container {
+  position: absolute;
+  top: 20px; 
+  right: 20px; 
+}
+
+.logout-icon {
+  font-size: 24px; 
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.logout-button {
+  background-color: transparent;
+  border: 0;
+}
+
+.disconnected {
+  color: #ffffff;
+  font-family: "Montserrat-ExtraBold";
+  font-size: 1.5em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 40px;
+  margin-top: 50px;
+}
+
+.spotify-logo2 {
+  display: block; /* Assurez-vous que l'image est un élément de bloc */
+  margin: 0 auto; /* Marge automatique sur les côtés pour centrer horizontalement */
+  margin-top: 200px;
+}

@@ -1,0 +1,76 @@
+.quizz-button {
+  background-color: #434343; /* Couleur de fond bleue */
+  color: #ffffff; /* Couleur du texte blanc */
+  border: none; /* Pas de bordure */
+  cursor: pointer; /* Curseur pointer au survol */
+  height: 70px; /* Nouvelle hauteur des boutons */
+  width: 100%; /* Largeur à 100% pour occuper toute la largeur du parent */
+  font-family: "Montserrat-Bold";
+  display: flex; /* Utilise flexbox pour aligner les éléments */
+  align-items: center; /* Centre les éléments verticalement */
+  padding: 0;
+  border-radius: 5px;
+}
+
+.button-icon {
+  height: 70px;
+  width: 70px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.button-text {
+  flex: 1; /* Fait en sorte que le texte occupe tout l'espace restant */
+  font-size: 0.8em;
+  margin: 10px;
+}
+
+.quizz-button:hover {
+  background-color: #6f95ff; /* Couleur de fond bleu clair au survol */
+  color: #212121
+}
+
+/* QuizzButton.css */
+
+.correct {
+  background-color: #4CAF50; /* vert */
+}
+
+.incorrect {
+  background-color: #F44336; /* rouge */
+}
+
+/* Ajoutez cela à votre fichier CSS pour QuizzGrid */
+.user-feedback.correct {
+  color: #4CAF50; /* vert */
+}
+
+.user-feedback.incorrect {
+  color: #F44336; /* rouge */
+}
+.quizz-button {
+  background-color: #434343; /* Base background color */
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  height: 70px;
+  width: 100%;
+  font-family: "Montserrat-Bold";
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.button-text {
+  flex-grow: 1;
+  font-size: 0.8em;
+}
+
+.quizz-button.correct {
+  background-color: #4CAF50; /* Green for correct answers */
+}
+
+.quizz-button.incorrect {
+  background-color: #F44336; /* Red for incorrect answers */
+}

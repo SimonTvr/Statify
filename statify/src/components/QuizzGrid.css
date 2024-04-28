@@ -1,0 +1,33 @@
+.quizz-grid-container-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.quizz-question-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quizz-question-text {
+  color: #fff;
+  font-family: "Montserrat-Bold";
+  font-size: 1.2em;
+  margin: 20px;
+}
+
+.quizz-answer-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 10px;
+  margin: 0 20px;
+}
+
+.user-feedback {
+  color: #fff;
+  font-family: "Montserrat-Bold";
+  font-size: 1.2em;
+  margin: 20px;
+}

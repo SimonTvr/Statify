@@ -1,0 +1,14 @@
+.login-button {
+  padding: 10px 20px;
+  font-family: "Montserrat-Medium";
+  font-size: 1.2em;
+  background-color: #6f95ff; /* Couleur de fond verte de Spotify */
+  color: #ffffff; /* Texte en blanc */
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #6f95ff; /* Couleur de fond verte foncée au survol */
+}
