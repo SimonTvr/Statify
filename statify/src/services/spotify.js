@@ -2,7 +2,7 @@
 import { questions } from './Quizz';
 
 const clientId = "69d9384d9b8b4c9eabe153ef7b638a8e"; // your clientId
-export const redirectUrl = "http://localhost:3000/pages/Welcome"; // your redirect URL - must be localhost URL and/or HTTPS
+export const redirectUrl = "https://main--statify-ensc.netlify.app/"; // your redirect URL - must be localhost URL and/or HTTPS
 const authorizationEndpoint = "https://accounts.spotify.com/authorize";
 const tokenEndpoint = "https://accounts.spotify.com/api/token";
 const scope = [
